@@ -6,62 +6,63 @@ import java.util.List;
 import java.util.Map;
 
 public class ConfObject {
-	private List<InfoObject> nodes = new ArrayList<>();
-	private int myid;
-	private int timeout;
-	private int learningInterval;
-	private String dataDir;
-	private boolean enableDataPersistence;
 
-	public ConfObject() {
-	}
+    private List<InfoObject> nodes = new ArrayList<>();
+    private int myid;
+    private int timeout;
+    private int learningInterval;
+    private String dataDir;
+    private boolean enableDataPersistence;
 
-	public List<InfoObject> getNodes() {
-		return nodes;
-	}
+    public ConfObject() {
+    }
 
-	public void setNodes(List<InfoObject> nodes) {
-		this.nodes = nodes;
-	}
+    public List<InfoObject> getNodes() {
+        return nodes;
+    }
 
-	public int getMyid() {
-		return myid;
-	}
+    public void setNodes(List<InfoObject> nodes) {
+        this.nodes = nodes;
+    }
 
-	public void setMyid(int myid) {
-		this.myid = myid;
-	}
+    public int getMyid() {
+        return myid;
+    }
 
-	public int getTimeout() {
-		return timeout;
-	}
+    public void setMyid(int myid) {
+        this.myid = myid;
+    }
 
-	public void setTimeout(int timeout) {
-		this.timeout = timeout;
-	}
+    public int getTimeout() {
+        return timeout;
+    }
 
-	public String getDataDir() {
-		return dataDir;
-	}
+    public void setTimeout(int timeout) {
+        this.timeout = timeout;
+    }
 
-	public void setDataDir(String dataDir) {
-		this.dataDir = dataDir;
-	}
+    public String getDataDir() {
+        return dataDir;
+    }
 
-	public boolean isEnableDataPersistence() {
-		return enableDataPersistence;
-	}
+    public void setDataDir(String dataDir) {
+        this.dataDir = dataDir;
+    }
 
-	public void setEnableDataPersistence(boolean enableDataPersistence) {
-		this.enableDataPersistence = enableDataPersistence;
-	}
+    public boolean isEnableDataPersistence() {
+        return enableDataPersistence;
+    }
 
-	public int getLearningInterval() {
-		return learningInterval;
-	}
+    public void setEnableDataPersistence(boolean enableDataPersistence) {
+        this.enableDataPersistence = enableDataPersistence;
+    }
 
-	public void setLearningInterval(int learningInterval) {
-		this.learningInterval = learningInterval;
-	}
-	
+    public int getLearningInterval() {
+        return learningInterval;
+    }
+
+    public void setLearningInterval(int learningInterval) {
+        this.learningInterval = learningInterval;
+    }
+
 }
